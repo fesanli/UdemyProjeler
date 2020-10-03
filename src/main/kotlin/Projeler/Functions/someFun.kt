@@ -30,8 +30,12 @@ fun main() {
     println("guncelSaat() = ${guncelSaat()}")
 }
 
-fun hello(name : String){
+fun hello(name : String) : Unit{
     println(name)
+
+    // bu fonksiyon herhangi bir deger dondurmedigi icin return deger
+    // turu olarak Unit kullaniliyor ancak bunu belirtmesem de
+    // varsayilan olarak Unit kabul edilebiliyor
 }
 
 fun hello(name : String, repeatCount : Int){
@@ -47,3 +51,4 @@ fun guncelSaat() : Int {
     val calendar : Calendar = Calendar.getInstance()
     return calendar.get(Calendar.HOUR)
 }
+
