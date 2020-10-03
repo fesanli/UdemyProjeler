@@ -38,6 +38,8 @@ fun hello(name : String) : Unit{
     // varsayilan olarak Unit kabul edilebiliyor
 }
 
+
+
 fun hello(name : String, repeatCount : Int){
     for (i in 1.rangeTo(repeatCount))
         println("$i. name = [${name}], repeatCount = [${repeatCount}]")
@@ -46,7 +48,12 @@ fun hello(name : String, repeatCount : Int){
 fun sumTheNumbers(num1 : Int, num2 : Int) : Int{
     return num1 + num2
 }
-
+/*
+    veri donus tipine gore method overloading yapilamaz!!!
+fun sumTheNumbers(num1 : Int, num2 : Int) : Unit{
+    println("num1+num2 = ${num1 + num2}")
+}
+*/
 fun guncelSaat() : Int {
     val calendar : Calendar = Calendar.getInstance()
     return calendar.get(Calendar.HOUR)
