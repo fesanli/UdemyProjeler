@@ -8,5 +8,6 @@ class Student{
 
 fun main() {
     var student1 : Student = Student()
-    student1.isim =
+    student1.isim = "Bekir"
+    student1.yas = 14
 }
