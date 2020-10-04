@@ -1,5 +1,5 @@
 # UdemyProjeler
-Learning project
+Training project
 
 This project developed while learning Kotlin from a Udemy online course.
 
