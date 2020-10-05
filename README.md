@@ -11,6 +11,7 @@ Course teacher: Emre Altunbilek
 Course title (Turkish): Kotlin ile Android Mobil Uygulama Geliştirme Kursu
 
 ---
+
 Order of packages by time:  
 1-Selamlama  
 2-VariableTypes  
@@ -19,4 +20,6 @@ Order of packages by time:
 5-Functions  
 6-preOOP (pre object oriented programming)  
 7-OOP  
+8-Inheritance  
+
 ---  
